@@ -95,7 +95,7 @@ function Button(props: {
   return (
     <button
       className={`bg-white w-20 h-20 text-6xl text-black rounded m-0.5 border-2 border-black 
-      ${props.isWinning ? "bg-green-400" : props.value}`}
+      ${props.isWinning ? "!bg-green-400" : props.value}`}
       onClick={() => props.onClick(props.index)}
     >
       {props.value}
